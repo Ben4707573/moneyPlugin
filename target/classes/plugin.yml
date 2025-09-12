@@ -1,0 +1,22 @@
+name: ServerDollars
+version: 1.0.0
+main: com.ben.sd.ServerDollarsPlugin
+api-version: '1.21'
+description: Simple SD ($) currency plugin
+
+commands:
+  sd:
+    description: Admin server dollars command
+    usage: /sd <add|set|remove> <player> <amount>
+    permission: sd.admin
+  pay:
+    description: Pay another player SD
+    usage: /pay <player> <amount>
+  hidebalance:
+    description: Toggle hiding your balance
+    usage: /hidebalance
+
+permissions:
+  sd.admin:
+    description: Allows managing balances
+    default: op

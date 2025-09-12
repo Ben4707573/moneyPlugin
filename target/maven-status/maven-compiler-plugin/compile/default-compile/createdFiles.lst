@@ -1,0 +1,6 @@
+com/ben/sd/managers/BalanceManager.class
+com/ben/sd/commands/PayCommand.class
+com/ben/sd/commands/HideBalanceCommand.class
+com/ben/sd/commands/SdAdminCommand.class
+com/ben/sd/ServerDollarsPlugin.class
+com/ben/sd/managers/TabManager.class
